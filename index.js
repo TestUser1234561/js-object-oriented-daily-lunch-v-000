@@ -9,7 +9,7 @@ class Delivery {
 
 class Meal {
   constructor(name, price) {
-    this.name = name;
+    this.title = name;
     this.price = price;
     this.id = store.meals.length;
     store.meals.push(this);
