@@ -16,6 +16,6 @@ class Meal {
   }
 
   static byPrice() {
-    return store.meals.sort(item => { item.price })
+    return store.meals.sort((a, b) => { a.price > b.price })
   }
 }
