@@ -31,7 +31,7 @@ class Employer {
 class Customer {
   constructor(name) {
     this.name = name;
-    this.id = store.employers.length;
-    store.employers.push(this);
+    this.id = store.customers.length;
+    store.customers.push(this);
   }
 }
