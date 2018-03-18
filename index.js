@@ -9,7 +9,7 @@ class Delivery {
 
 class Meal {
   name() {
-    this.name = name
+    this.name = name;
     this.id = store.meals.length;
     store.meals.push(this);
   }
