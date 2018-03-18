@@ -6,3 +6,10 @@ class Delivery {
     store.deliveries.push(this);
   }
 }
+
+class Meal {
+  name() {
+    this.id = store.meals.length;
+    store.meals.push(this);
+  }
+}
