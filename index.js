@@ -1,4 +1,4 @@
-var store = { deliveries: [], meals: [], employers: [] };
+var store = { deliveries: [], meals: [], employers: [], customers: [] };
 
 class Delivery {
   constructor() {
@@ -24,6 +24,6 @@ class Employer {
   constructor(name) {
     this.name = name;
     this.id = store.employers.length;
-    store.meals.push(this);
+    store.employers.push(this);
   }
 }
