@@ -14,4 +14,8 @@ class Meal {
     this.id = store.meals.length;
     store.meals.push(this);
   }
+
+  byPrice() {
+    return store.meals.sort(item => { item.price })
+  }
 }
