@@ -27,3 +27,11 @@ class Employer {
     store.employers.push(this);
   }
 }
+
+class Customer {
+  constructor(name) {
+    this.name = name;
+    this.id = store.employers.length;
+    store.employers.push(this);
+  }
+}
