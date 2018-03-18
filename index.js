@@ -1,4 +1,4 @@
-var store = { deliveries = [], meals = [], employers = [] };
+var store = { deliveries: [], meals: [], employers: [] };
 
 class delivery {
   constructor() {
