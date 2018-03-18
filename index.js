@@ -1,8 +1,10 @@
 var store = { deliveries: [], meals: [], employers: [], customers: [] };
 
 class Delivery {
-  constructor() {
+  constructor(meal, customer) {
     this.id = store.deliveries.length;
+    this.mealId = meal.id;
+    this.customerId = customer.id;
     store.deliveries.push(this);
   }
 }
