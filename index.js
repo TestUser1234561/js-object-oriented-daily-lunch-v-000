@@ -1,4 +1,4 @@
-let store = { deliveries = [], meals = [], employers = [] };
+store = { deliveries = [], meals = [], employers = [] };
 
 class delivery {
   constructor() {
