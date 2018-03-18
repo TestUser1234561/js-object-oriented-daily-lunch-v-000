@@ -8,8 +8,9 @@ class Delivery {
 }
 
 class Meal {
-  name() {
+  constructor(name, price) {
     this.name = name;
+    this.price = price;
     this.id = store.meals.length;
     store.meals.push(this);
   }
