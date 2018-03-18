@@ -19,3 +19,11 @@ class Meal {
     return store.meals.sort(function(a, b) { return a.price < b.price })
   }
 }
+
+class Employer {
+  constructor(name) {
+    this.name = name;
+    this.id = store.employers.length;
+    store.meals.push(this);
+  }
+}
